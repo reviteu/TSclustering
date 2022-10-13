@@ -14,9 +14,9 @@ from sklearn.metrics import calinski_harabasz_score, silhouette_score, davies_bo
 from sklearn.decomposition import PCA
 from sklearn import preprocessing
 import matplotlib.pyplot as plt
+import seaborn as sns
+from functools import partial, reduce
 
-
-train_type = 'ts_clustering'
 
 class ClusterWithFeatures():
 
@@ -32,11 +32,14 @@ class ClusterWithFeatures():
             data : dataframe with weekly seasonal index for different items
         """
 
-        data = pd.read_csv(self.data_path, sep=';')
-        data = data.fillna(value=0)
-        groups = data.groupby(self.item_column)[self.cluster_column].apply(np.array).reset_index()
+        df = pd.read_excel(self.data_path)
+        df = df.drop('Total', axis=1)
+        data = df.copy(deep=True)
+        data['cluster'] = data.iloc[:,1:].apply(lambda s: s.to_numpy(), axis=1)
+        cluster_df = data[['Item', 'cluster']]
 
-        return data, groups
+
+        return df, cluster_df
 
     def extract_ts_features(self):
         """Extracts all the feature set for the timeseries input with the tsfresh library. 
@@ -45,8 +48,10 @@ class ClusterWithFeatures():
             Dataframe: Cleaned dataframe with removing inf and NaNs and appended feature columns
         """
 
-        data, grouped_data = self.load_data()
-        extracted_features = extract_features(data, column_id=self.item_column, column_value=self.cluster_column)
+        data, cluster_data = self.load_data()
+        melted_data = data.melt(id_vars="Item", var_name="week", value_name="cluster")
+        melted_data = melted_data.sort_values(["Item", "week"]).reset_index(drop=True)
+        extracted_features = extract_features(melted_data, column_id=self.item_column, column_value=self.cluster_column)
         extracted_features = extracted_features.reset_index()
         extracted_features = extracted_features.drop(['index'], axis=1)
 
@@ -131,7 +136,14 @@ class ClusterWithFeatures():
         df = pd.DataFrame({'x':labels}) 
 
         return df
-
+    
+    def plot_clusters(self, data):
+        
+        sns.set(style='darkgrid')
+        ax = sns.countplot(x="Item", data=data)
+        plt.show()
+        
+        return ax
 
 class ClusterWithTS(ClusterWithFeatures):
 
@@ -147,13 +159,14 @@ class ClusterWithTS(ClusterWithFeatures):
             array: distance matrix of size (N * M) where N is the number of time series and M is the common lenght of the time series
         """
 
-        original_data, grouped_data = self.load_data()
+        data, grouped_data = self.load_data()
 
         timeseries = list(grouped_data[self.cluster_column].iloc[:])
         d = dtw.distance_matrix_fast(timeseries)
 
         return d
 
+    
     def kmeans_ts_clustering(self):
         """Train Kmeans clustering model
 
@@ -162,7 +175,7 @@ class ClusterWithTS(ClusterWithFeatures):
         """
 
         d = self.dtw_transform()
-        km = TimeSeriesKMeans(n_clusters=14, verbose=True, random_state=55)
+        km = TimeSeriesKMeans(n_clusters=14, verbose=False, random_state=55)
         y_pred_km = km.fit_predict(d)
 
         return y_pred_km
@@ -175,34 +188,40 @@ class ClusterWithTS(ClusterWithFeatures):
         """
 
         d = self.dtw_transform()
-        kt = KernelKMeans(n_clusters=14, verbose=True, random_state=55, n_jobs=-1)
+        kt = KernelKMeans(n_clusters=14, verbose=False, random_state=55, n_jobs=-1)
         y_pred_kt = kt.fit_predict(d)
 
         return y_pred_kt
 
 
-
-if __name__ == "__main__":
-
-    cluster_feature = ClusterWithFeatures('seasonal_data.csv', 'Overall', 'Item' )
-    cluster_TS = ClusterWithTS('seasonal_data.csv', 'Overall', 'Item')
-
+def main(data_type, train_type):
+    
+    if data_type == "overall":
+        data_path = "overall_index.xlsx"
+    elif data_type == "launch":
+        data_path = "launch_index.xlsx"
+    elif data_type == "rol":
+        data_path = "rol_index.xlsx"
+        
+        
+    cluster_feature = ClusterWithFeatures(data_path, 'cluster', 'Item' )    
+    cluster_TS = ClusterWithTS(data_path, 'cluster', 'Item')
+    
     if train_type == 'ts_clustering':
         
 
         kmeans_clustering_label = cluster_TS.kmeans_ts_clustering()
         kernelmeans_clustering_label = cluster_TS.kernelmeans_ts_clustering()
 
-        original_data, grouped_data = cluster_TS.load_data()
+        data, grouped_data = cluster_TS.load_data()
 
-        grouped_data['kmeans'] = kmeans_clustering_label
-        grouped_data['hierarchical_clustering'] = kernelmeans_clustering_label
+        grouped_data[f'kmeans_{data_type}'] = kmeans_clustering_label
+        grouped_data[f'hierarchical_clustering{data_type}'] = kernelmeans_clustering_label
 
-        final_cluster_data = grouped_data.drop('Overall', axis=1)
+        final_cluster_data = grouped_data.drop('cluster', axis=1)
 
-        final_cluster_data.to_csv('cluster.csv')
 
-    else:
+    elif train_type == 'feature_clustering':
 
         data_matrix = cluster_feature.reduce_dimensions()
 
@@ -212,15 +231,26 @@ if __name__ == "__main__":
 
         kmeans_clustering_label = cluster_feature.kmeans_clustering(data_matrix)
 
-        original_data, grouped_data = cluster_feature.load_data()
+        data, grouped_data = cluster_feature.load_data()
 
-        grouped_data['kmeans'] = kmeans_clustering_label
-        grouped_data['hierarchical_clustering'] = hierarchical_clustering_label
+        grouped_data[f'kmeans_{data_type}'] = kmeans_clustering_label
+        grouped_data[f'hierarchical_clustering_{data_type}'] = hierarchical_clustering_label
+        
+        final_cluster_data = grouped_data.drop('cluster', axis=1)
+        final_cluster_data[f'kmeans_{data_type}'] = "cluster" + " "+  final_cluster_data[f'kmeans_{data_type}'].astype(str)
+        final_cluster_data[f'hierarchical_clustering_{data_type}'] = "cluster" + " " + final_cluster_data[f'hierarchical_clustering_{data_type}'].astype(str)
 
-        final_cluster_data = grouped_data.drop('Overall', axis=1)
+        
+    return final_cluster_data
 
-        final_cluster_data.to_csv('cluster.csv')
+if __name__ == "__main__":
 
-
-    print("Job Done")
-
+    cluster_data_overall = main("overall", "feature_clustering")
+    cluster_data_launch = main("launch", "feature_clustering")
+    cluster_data_rol = main("rol", "feature_clustering")
+    
+    combined_data = [cluster_data_overall, cluster_data_launch, cluster_data_rol]
+    merge = partial(pd.merge, on = "Item", how="outer")
+    cluster_data = reduce(merge, combined_data)
+    
+    cluster_data.to_csv('clusters.csv')
