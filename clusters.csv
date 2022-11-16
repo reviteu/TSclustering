@@ -1,311 +1,311 @@
-,Item,kmeans_overall,hierarchical_clustering_overall,kmeans_launch,hierarchical_clustering_launch,kmeans_rol,hierarchical_clustering_rol
-0,FAR008,cluster 11,cluster 7,,,cluster 4,cluster 5
-1,FAR010,cluster 11,cluster 7,,,cluster 4,cluster 5
-2,FAR039,cluster 11,cluster 7,cluster 10,cluster 5,cluster 4,cluster 5
-3,FAR042,cluster 8,cluster 6,cluster 10,cluster 7,cluster 4,cluster 5
-4,FAR043,cluster 8,cluster 6,cluster 10,cluster 7,cluster 4,cluster 5
-5,FAR044,cluster 7,cluster 6,cluster 10,cluster 7,cluster 8,cluster 5
-6,FAR045,cluster 7,cluster 6,cluster 10,cluster 7,cluster 8,cluster 5
-7,FAR046,cluster 7,cluster 6,cluster 10,cluster 7,cluster 8,cluster 5
-8,FAR047,cluster 7,cluster 6,cluster 10,cluster 7,cluster 8,cluster 5
-9,FAR049,cluster 11,cluster 7,cluster 4,cluster 2,cluster 4,cluster 5
-10,FAR052,cluster 8,cluster 6,cluster 2,cluster 7,cluster 8,cluster 5
-11,FAR054,cluster 7,cluster 6,cluster 2,cluster 7,cluster 8,cluster 5
-12,FAR055,cluster 7,cluster 6,cluster 2,cluster 7,cluster 8,cluster 5
-13,FAR056,cluster 11,cluster 7,cluster 10,cluster 7,cluster 4,cluster 5
-14,FAR057,cluster 11,cluster 7,cluster 2,cluster 7,cluster 0,cluster 5
-15,FAR059,cluster 10,cluster 8,cluster 2,cluster 7,cluster 4,cluster 5
-16,FAR060,cluster 11,cluster 7,cluster 4,cluster 2,cluster 4,cluster 5
-17,FAR070,cluster 10,cluster 8,cluster 0,cluster 2,cluster 13,cluster 5
-18,FAR071,cluster 10,cluster 8,cluster 0,cluster 2,cluster 0,cluster 4
-19,FAR072,cluster 10,cluster 8,cluster 6,cluster 2,cluster 13,cluster 5
-20,FAR073,cluster 10,cluster 8,cluster 9,cluster 2,cluster 4,cluster 5
-21,FAR074,cluster 3,cluster 4,cluster 9,cluster 2,cluster 10,cluster 4
-22,FAR076,cluster 5,cluster 5,cluster 3,cluster 5,cluster 3,cluster 4
-23,FAR077,cluster 5,cluster 6,cluster 3,cluster 5,cluster 3,cluster 4
-24,FAR078,cluster 5,cluster 5,cluster 3,cluster 5,cluster 3,cluster 4
-25,FAR080,cluster 4,cluster 1,cluster 5,cluster 3,,
-26,FAR081,cluster 4,cluster 1,cluster 5,cluster 3,,
-27,FBR048,cluster 1,cluster 8,cluster 6,cluster 2,cluster 0,cluster 4
-28,FBR050,cluster 10,cluster 8,cluster 6,cluster 2,cluster 0,cluster 4
-29,FBR051,cluster 1,cluster 8,cluster 6,cluster 2,cluster 0,cluster 5
-30,FBR053,cluster 3,cluster 4,cluster 9,cluster 1,cluster 11,cluster 3
-31,FBR054,cluster 3,cluster 4,cluster 7,cluster 5,cluster 10,cluster 4
-32,FBR055,cluster 3,cluster 4,cluster 9,cluster 1,cluster 12,cluster 3
-33,FBR057,cluster 3,cluster 4,cluster 9,cluster 1,cluster 5,cluster 3
-34,FBR058,cluster 3,cluster 4,cluster 9,cluster 1,cluster 12,cluster 3
-35,FBR059,cluster 10,cluster 8,cluster 6,cluster 2,cluster 10,cluster 4
-36,FBR060,cluster 10,cluster 8,cluster 6,cluster 2,cluster 10,cluster 4
-37,FBR061,cluster 10,cluster 8,cluster 6,cluster 1,cluster 10,cluster 4
-38,FBR062,cluster 10,cluster 8,cluster 6,cluster 2,cluster 10,cluster 4
-39,FBR063,cluster 10,cluster 8,cluster 6,cluster 2,cluster 3,cluster 4
-40,FBR064,cluster 10,cluster 8,cluster 6,cluster 2,cluster 10,cluster 4
-41,FBR065,cluster 10,cluster 8,cluster 6,cluster 2,cluster 10,cluster 4
-42,FBR066,cluster 10,cluster 8,cluster 0,cluster 2,cluster 3,cluster 4
-43,FBR067,cluster 13,cluster 4,cluster 9,cluster 1,cluster 6,cluster 3
-44,FBR068,cluster 13,cluster 4,cluster 9,cluster 1,cluster 1,cluster 2
-45,FBR069,cluster 13,cluster 4,cluster 9,cluster 1,cluster 1,cluster 2
-46,FBR070,cluster 3,cluster 4,cluster 0,cluster 1,cluster 9,cluster 2
-47,FBR071,cluster 13,cluster 4,cluster 9,cluster 1,,
-48,FBR072,cluster 13,cluster 4,cluster 0,cluster 1,cluster 1,cluster 2
-49,FBR073,cluster 13,cluster 4,cluster 9,cluster 1,cluster 6,cluster 2
-50,FBR074,cluster 3,cluster 4,cluster 0,cluster 1,cluster 7,cluster 3
-51,FBR075,cluster 3,cluster 4,cluster 0,cluster 1,cluster 2,cluster 1
-52,FBR076,cluster 3,cluster 4,cluster 0,cluster 1,cluster 2,cluster 1
-53,FBR077,cluster 6,cluster 4,cluster 0,cluster 1,cluster 1,cluster 2
-54,FCL018,cluster 3,cluster 4,cluster 9,cluster 1,cluster 1,cluster 2
-55,FCL019,cluster 13,cluster 4,cluster 9,cluster 1,cluster 1,cluster 2
-56,FGS130,cluster 11,cluster 7,cluster 4,cluster 2,cluster 0,cluster 5
-57,FGS131,cluster 9,cluster 7,cluster 6,cluster 2,cluster 0,cluster 4
-58,FGS139,cluster 9,cluster 7,cluster 6,cluster 2,cluster 0,cluster 5
-59,FGS141,cluster 9,cluster 7,cluster 1,cluster 2,cluster 0,cluster 4
-60,FGS151,cluster 9,cluster 7,cluster 6,cluster 2,cluster 0,cluster 5
-61,FGS153,cluster 1,cluster 8,cluster 6,cluster 2,cluster 10,cluster 5
-62,FGS156,cluster 10,cluster 8,cluster 0,cluster 2,cluster 0,cluster 5
-63,FGS157,cluster 1,cluster 8,cluster 6,cluster 2,cluster 3,cluster 4
-64,FGS158,cluster 10,cluster 8,cluster 0,cluster 2,cluster 0,cluster 4
-65,FGS159,cluster 5,cluster 5,cluster 3,cluster 5,cluster 3,cluster 4
-66,FGS160,cluster 9,cluster 7,cluster 6,cluster 2,cluster 0,cluster 5
-67,FGS161,cluster 1,cluster 8,cluster 6,cluster 2,cluster 3,cluster 4
-68,FGS162,cluster 6,cluster 8,cluster 6,cluster 2,cluster 1,cluster 2
-69,FGS163,cluster 1,cluster 8,cluster 6,cluster 2,cluster 3,cluster 4
-70,FGS164,cluster 1,cluster 8,cluster 6,cluster 2,cluster 3,cluster 4
-71,FGS165,cluster 10,cluster 8,cluster 0,cluster 1,cluster 3,cluster 4
-72,FGS166,cluster 10,cluster 8,cluster 6,cluster 2,cluster 3,cluster 4
-73,FGS167,cluster 6,cluster 8,cluster 1,cluster 2,cluster 3,cluster 4
-74,FGS168,cluster 1,cluster 8,cluster 1,cluster 2,cluster 13,cluster 4
-75,FGS169,cluster 3,cluster 4,cluster 0,cluster 1,,
-76,FGS170,cluster 3,cluster 4,cluster 9,cluster 1,,
-77,FGS171,cluster 1,cluster 8,cluster 1,cluster 2,cluster 10,cluster 4
-78,FGS172,cluster 3,cluster 4,cluster 0,cluster 1,cluster 1,cluster 2
-79,FGS173,cluster 1,cluster 7,cluster 6,cluster 2,cluster 3,cluster 4
-80,FGS174,cluster 10,cluster 8,cluster 6,cluster 2,cluster 3,cluster 4
-81,FGS175,cluster 10,cluster 8,cluster 6,cluster 2,cluster 13,cluster 4
-82,FGS176,cluster 3,cluster 4,cluster 0,cluster 1,cluster 1,cluster 2
-83,FGS177,cluster 10,cluster 8,cluster 6,cluster 2,cluster 3,cluster 5
-84,FGS178,cluster 1,cluster 8,cluster 6,cluster 2,cluster 3,cluster 4
-85,FGS179,cluster 13,cluster 4,cluster 9,cluster 1,,
-86,FGS180,cluster 6,cluster 8,cluster 6,cluster 2,cluster 12,cluster 3
-87,FGS182,cluster 6,cluster 8,cluster 6,cluster 2,,
-88,FGS183,cluster 3,cluster 4,cluster 0,cluster 1,,
-89,FGS184,cluster 13,cluster 4,cluster 9,cluster 1,,
-90,FGS186,cluster 6,cluster 8,cluster 6,cluster 2,cluster 2,cluster 1
-91,FGS187,cluster 3,cluster 4,cluster 9,cluster 1,cluster 2,cluster 1
-92,FGW068,cluster 7,cluster 6,cluster 10,cluster 7,cluster 8,cluster 5
-93,FGW080,cluster 7,cluster 6,cluster 8,cluster 7,cluster 8,cluster 5
-94,FGW081,cluster 7,cluster 6,cluster 8,cluster 7,cluster 8,cluster 5
-95,FGW082,cluster 7,cluster 6,cluster 10,cluster 7,cluster 8,cluster 5
-96,FGW084,cluster 7,cluster 6,cluster 10,cluster 7,cluster 8,cluster 5
-97,FGW085,cluster 7,cluster 6,cluster 10,cluster 7,cluster 5,cluster 5
-98,FGW086,cluster 7,cluster 6,cluster 10,cluster 7,cluster 8,cluster 5
-99,FGW087,cluster 7,cluster 6,cluster 10,cluster 7,cluster 8,cluster 5
-100,FGW089,cluster 7,cluster 6,cluster 10,cluster 7,cluster 8,cluster 5
-101,FGW090,cluster 7,cluster 6,cluster 2,cluster 7,cluster 8,cluster 5
-102,FGW091,cluster 5,cluster 6,cluster 2,cluster 7,cluster 4,cluster 5
-103,FGW092,cluster 8,cluster 6,cluster 2,cluster 7,cluster 4,cluster 5
-104,FGW093,cluster 7,cluster 6,cluster 10,cluster 7,cluster 5,cluster 5
-105,FGW096,cluster 4,cluster 1,cluster 5,cluster 3,,
-106,FGW098,cluster 4,cluster 1,cluster 7,cluster 3,,
-107,FGW101,cluster 2,cluster 2,cluster 7,cluster 5,,
-108,FGW102,cluster 4,cluster 1,cluster 5,cluster 3,,
-109,FGW103,cluster 2,cluster 2,cluster 3,cluster 5,,
-110,FGW104,cluster 4,cluster 1,cluster 5,cluster 3,,
-111,FGW105,cluster 2,cluster 2,cluster 7,cluster 5,,
-112,FJL095,cluster 11,cluster 7,cluster 4,cluster 2,cluster 0,cluster 5
-113,FJL096,cluster 11,cluster 7,cluster 4,cluster 2,cluster 0,cluster 5
-114,FJL113,cluster 10,cluster 8,cluster 6,cluster 2,cluster 0,cluster 4
-115,FJL119,cluster 6,cluster 8,cluster 0,cluster 1,cluster 1,cluster 2
-116,FJL120,cluster 3,cluster 4,cluster 9,cluster 1,cluster 5,cluster 3
-117,FJL121,cluster 3,cluster 4,cluster 9,cluster 1,cluster 2,cluster 1
-118,FJL122,cluster 6,cluster 8,cluster 1,cluster 2,cluster 10,cluster 4
-119,FJL123,cluster 6,cluster 8,cluster 1,cluster 2,cluster 3,cluster 4
-120,FJL124,cluster 3,cluster 4,cluster 9,cluster 1,cluster 2,cluster 1
-121,FJL125,cluster 3,cluster 4,cluster 9,cluster 1,cluster 1,cluster 2
-122,FJL126,cluster 13,cluster 4,cluster 9,cluster 1,cluster 2,cluster 1
-123,FJL128,cluster 3,cluster 4,cluster 9,cluster 1,,
-124,FJL130,cluster 13,cluster 4,cluster 0,cluster 1,cluster 1,cluster 2
-125,FJL131,cluster 13,cluster 4,cluster 9,cluster 1,cluster 1,cluster 2
-126,FJT223,cluster 9,cluster 7,cluster 1,cluster 2,cluster 0,cluster 5
-127,FJT224,cluster 9,cluster 7,cluster 1,cluster 2,cluster 0,cluster 5
-128,FJT230,cluster 9,cluster 7,cluster 1,cluster 2,cluster 0,cluster 5
-129,FJT252,cluster 8,cluster 6,cluster 8,cluster 7,cluster 4,cluster 5
-130,FJT253,cluster 8,cluster 6,cluster 8,cluster 7,cluster 5,cluster 5
-131,FJT254,cluster 8,cluster 6,cluster 8,cluster 7,cluster 4,cluster 5
-132,FJT257,cluster 11,cluster 7,cluster 4,cluster 2,cluster 4,cluster 5
-133,FJT258,cluster 11,cluster 7,cluster 4,cluster 2,cluster 4,cluster 5
-134,FJT262,cluster 11,cluster 7,cluster 4,cluster 2,cluster 4,cluster 5
-135,FJT263,cluster 11,cluster 7,cluster 4,cluster 2,cluster 4,cluster 5
-136,FJT265,cluster 11,cluster 7,cluster 4,cluster 2,cluster 4,cluster 5
-137,FJT273,cluster 9,cluster 7,,,cluster 0,cluster 5
-138,FJT274,cluster 9,cluster 7,,,cluster 0,cluster 5
-139,FJT275,cluster 9,cluster 7,cluster 6,cluster 2,cluster 0,cluster 5
-140,FJT276,cluster 10,cluster 8,cluster 6,cluster 2,cluster 0,cluster 5
-141,FJT277,cluster 1,cluster 8,cluster 3,cluster 5,cluster 3,cluster 4
-142,FJT278,cluster 1,cluster 8,cluster 6,cluster 1,cluster 3,cluster 4
-143,FJT279,cluster 1,cluster 8,cluster 6,cluster 1,cluster 3,cluster 4
-144,FJT280,cluster 8,cluster 5,cluster 2,cluster 7,cluster 4,cluster 5
-145,FJT281,cluster 5,cluster 5,cluster 3,cluster 5,cluster 0,cluster 4
-146,FJT282,cluster 5,cluster 5,cluster 2,cluster 5,cluster 4,cluster 5
-147,FJT283,cluster 5,cluster 5,cluster 3,cluster 5,cluster 4,cluster 5
-148,FJT284,cluster 5,cluster 5,cluster 3,cluster 5,cluster 5,cluster 5
-149,FJT285,cluster 7,cluster 6,cluster 12,cluster 2,cluster 5,cluster 5
-150,FJT286,cluster 5,cluster 5,cluster 3,cluster 5,cluster 13,cluster 4
-151,FJT287,cluster 5,cluster 6,cluster 10,cluster 7,cluster 5,cluster 5
-152,FJT288,cluster 5,cluster 5,cluster 3,cluster 5,cluster 3,cluster 4
-153,FJT289,cluster 10,cluster 8,cluster 0,cluster 1,cluster 10,cluster 4
-154,FJT290,cluster 10,cluster 8,cluster 9,cluster 1,cluster 10,cluster 4
-155,FJT291,cluster 6,cluster 8,cluster 6,cluster 2,cluster 1,cluster 2
-156,FJT292,cluster 10,cluster 8,cluster 0,cluster 2,cluster 3,cluster 4
-157,FJT293,cluster 13,cluster 4,,,cluster 10,cluster 4
-158,FJT294,cluster 1,cluster 8,cluster 6,cluster 2,cluster 10,cluster 4
-159,FJT295,cluster 1,cluster 8,cluster 6,cluster 2,cluster 10,cluster 4
-160,FJT296,cluster 10,cluster 8,cluster 0,cluster 1,cluster 3,cluster 4
-161,FJT297,cluster 1,cluster 8,cluster 6,cluster 2,cluster 3,cluster 4
-162,FJT298,cluster 5,cluster 5,cluster 3,cluster 5,cluster 3,cluster 4
-163,FJT299,cluster 5,cluster 5,cluster 3,cluster 5,cluster 3,cluster 4
-164,FJT300,cluster 5,cluster 5,cluster 3,cluster 5,cluster 3,cluster 4
-165,FJT301,cluster 5,cluster 6,cluster 2,cluster 5,cluster 13,cluster 4
-166,FJT302,cluster 5,cluster 5,cluster 3,cluster 5,cluster 3,cluster 4
-167,FJT303,cluster 2,cluster 2,,,cluster 5,cluster 3
-168,FJT304,cluster 5,cluster 5,cluster 3,cluster 5,cluster 3,cluster 4
-169,FJT305,cluster 5,cluster 5,cluster 3,cluster 5,cluster 3,cluster 4
-170,FJT306,cluster 6,cluster 8,cluster 9,cluster 2,cluster 6,cluster 3
-171,FJT307,cluster 6,cluster 8,cluster 6,cluster 2,,
-172,FJT308,cluster 13,cluster 4,cluster 9,cluster 1,cluster 2,cluster 1
-173,FJT309,cluster 6,cluster 8,cluster 0,cluster 2,cluster 1,cluster 2
-174,FJT310,cluster 6,cluster 8,cluster 6,cluster 2,,
-175,FJT311,cluster 6,cluster 8,cluster 6,cluster 2,cluster 9,cluster 3
-176,FJT312,cluster 3,cluster 4,cluster 0,cluster 1,cluster 1,cluster 2
-177,FJT313,cluster 6,cluster 8,cluster 6,cluster 1,,
-178,FJT314,cluster 13,cluster 4,cluster 9,cluster 1,cluster 1,cluster 2
-179,FJT315,cluster 13,cluster 4,cluster 9,cluster 1,cluster 2,cluster 1
-180,FJT316,cluster 13,cluster 4,cluster 4,cluster 2,cluster 1,cluster 2
-181,FJT317,cluster 3,cluster 4,cluster 9,cluster 1,cluster 1,cluster 2
-182,FJT318,cluster 13,cluster 4,cluster 9,cluster 1,cluster 1,cluster 2
-183,FJT319,cluster 3,cluster 4,cluster 9,cluster 1,,
-184,FJT320,cluster 6,cluster 8,cluster 0,cluster 1,cluster 1,cluster 2
-185,FJT321,cluster 6,cluster 8,cluster 0,cluster 1,cluster 1,cluster 2
-186,FJT322,cluster 2,cluster 2,cluster 7,cluster 5,,
-187,FJT323,cluster 4,cluster 1,cluster 5,cluster 3,,
-188,FJT325,cluster 2,cluster 2,cluster 3,cluster 5,,
-189,FJT326,cluster 2,cluster 2,cluster 3,cluster 5,,
-190,FJT327,cluster 6,cluster 8,cluster 6,cluster 2,cluster 12,cluster 3
-191,FJT328,cluster 12,cluster 3,cluster 11,cluster 4,,
-192,FJT329,cluster 3,cluster 4,cluster 9,cluster 1,,
-193,FJT342,cluster 0,cluster 2,,,cluster 6,cluster 3
-194,FJT352,cluster 4,cluster 2,,,cluster 6,cluster 3
-195,FLU001,cluster 5,cluster 5,cluster 3,cluster 5,cluster 3,cluster 4
-196,FLU002,cluster 5,cluster 5,cluster 3,cluster 5,cluster 3,cluster 4
-197,FLU003,cluster 5,cluster 5,cluster 3,cluster 5,cluster 3,cluster 4
-198,FLU004,cluster 5,cluster 5,cluster 3,cluster 5,cluster 3,cluster 4
-199,FOL031,cluster 1,cluster 8,cluster 6,cluster 2,cluster 3,cluster 4
-200,FOL032,cluster 10,cluster 8,cluster 0,cluster 2,cluster 3,cluster 4
-201,FOL035,cluster 1,cluster 8,cluster 6,cluster 2,cluster 10,cluster 4
-202,FOL036,cluster 3,cluster 4,cluster 9,cluster 1,cluster 6,cluster 3
-203,FPB002,cluster 11,cluster 7,cluster 10,cluster 7,cluster 4,cluster 5
-204,FPB003,cluster 11,cluster 7,cluster 10,cluster 7,cluster 0,cluster 5
-205,FPB004,cluster 1,cluster 5,cluster 2,cluster 5,cluster 3,cluster 4
-206,FPG028,cluster 11,cluster 7,,,cluster 4,cluster 5
-207,FPG042,cluster 11,cluster 7,cluster 13,cluster 6,cluster 4,cluster 5
-208,FPG043,cluster 11,cluster 7,cluster 13,cluster 6,cluster 4,cluster 5
-209,FPG044,cluster 11,cluster 7,cluster 13,cluster 6,cluster 4,cluster 5
-210,FPG045,cluster 11,cluster 7,cluster 13,cluster 6,cluster 4,cluster 5
-211,FPG046,cluster 11,cluster 7,cluster 13,cluster 6,cluster 4,cluster 5
-212,FPG047,cluster 11,cluster 7,cluster 13,cluster 6,cluster 4,cluster 5
-213,FPG048,cluster 11,cluster 7,cluster 13,cluster 6,cluster 4,cluster 5
-214,FPG049,cluster 9,cluster 7,cluster 13,cluster 6,cluster 0,cluster 5
-215,FPG050,cluster 9,cluster 7,cluster 13,cluster 6,cluster 0,cluster 5
-216,FPG051,cluster 9,cluster 7,cluster 13,cluster 6,cluster 0,cluster 5
-217,FPG052,cluster 9,cluster 7,cluster 13,cluster 6,cluster 0,cluster 5
-218,FPG053,cluster 11,cluster 7,cluster 13,cluster 2,cluster 0,cluster 5
-219,FPG054,cluster 11,cluster 7,cluster 4,cluster 2,cluster 0,cluster 5
-220,FPG055,cluster 1,cluster 8,cluster 6,cluster 2,cluster 3,cluster 4
-221,FPG056,cluster 1,cluster 8,cluster 1,cluster 2,cluster 13,cluster 4
-222,FPG057,cluster 1,cluster 8,cluster 6,cluster 2,cluster 3,cluster 4
-223,FPG058,cluster 1,cluster 8,cluster 6,cluster 2,cluster 3,cluster 4
-224,FPG060,cluster 1,cluster 8,cluster 1,cluster 2,cluster 13,cluster 4
-225,FPG062,cluster 6,cluster 8,cluster 13,cluster 2,cluster 1,cluster 2
-226,FPG063,cluster 13,cluster 8,cluster 0,cluster 1,cluster 1,cluster 2
-227,FPJ043,cluster 3,cluster 4,cluster 0,cluster 1,,
-228,FPJ044,cluster 3,cluster 4,cluster 9,cluster 1,,
-229,FPJ045,cluster 3,cluster 4,cluster 0,cluster 1,cluster 2,cluster 1
-230,FPJ046,cluster 3,cluster 4,cluster 0,cluster 1,cluster 12,cluster 3
-231,FPJ047,cluster 6,cluster 8,cluster 6,cluster 1,cluster 1,cluster 2
-232,FPJ048,cluster 3,cluster 4,cluster 0,cluster 1,cluster 1,cluster 2
-233,FPJ049,cluster 3,cluster 4,cluster 0,cluster 1,cluster 6,cluster 3
-234,FPJ050,cluster 3,cluster 4,cluster 0,cluster 1,cluster 12,cluster 3
-235,FPJ051,cluster 3,cluster 4,cluster 0,cluster 1,cluster 2,cluster 1
-236,FPJ052,cluster 3,cluster 4,cluster 9,cluster 1,cluster 6,cluster 3
-237,FPJ053,cluster 3,cluster 4,cluster 0,cluster 1,cluster 6,cluster 3
-238,FPJ054,cluster 13,cluster 8,cluster 0,cluster 1,cluster 1,cluster 2
-239,FPJ055,cluster 3,cluster 4,cluster 0,cluster 1,,
-240,FPJ056,cluster 3,cluster 4,cluster 0,cluster 1,cluster 6,cluster 3
-241,FPJ057,cluster 3,cluster 4,cluster 9,cluster 1,cluster 6,cluster 3
-242,FPJ058,cluster 3,cluster 4,cluster 9,cluster 1,cluster 2,cluster 1
-243,FPJ059,cluster 3,cluster 4,cluster 0,cluster 1,,
-244,FPL034,cluster 11,cluster 7,cluster 4,cluster 2,cluster 0,cluster 5
-245,FPL038,cluster 10,cluster 8,cluster 0,cluster 1,cluster 3,cluster 4
-246,FPL039,cluster 3,cluster 4,cluster 0,cluster 1,cluster 2,cluster 1
-247,FPL040,cluster 3,cluster 4,cluster 9,cluster 1,cluster 2,cluster 1
-248,FPT089,cluster 8,cluster 6,cluster 8,cluster 7,cluster 4,cluster 5
-249,FPT090,cluster 8,cluster 6,cluster 8,cluster 7,cluster 4,cluster 5
-250,FPT091,cluster 11,cluster 7,cluster 4,cluster 2,cluster 4,cluster 5
-251,FPT092,cluster 11,cluster 7,cluster 4,cluster 2,cluster 4,cluster 5
-252,FPT093,cluster 11,cluster 7,cluster 4,cluster 2,cluster 4,cluster 5
-253,FPT094,cluster 11,cluster 7,cluster 4,cluster 2,cluster 4,cluster 5
-254,FPT095,cluster 11,cluster 7,cluster 4,cluster 2,cluster 4,cluster 5
-255,FPT096,cluster 9,cluster 7,cluster 6,cluster 2,cluster 0,cluster 5
-256,FPT097,cluster 9,cluster 7,cluster 6,cluster 2,cluster 0,cluster 5
-257,FPT098,cluster 11,cluster 7,cluster 6,cluster 2,cluster 0,cluster 5
-258,FPT099,cluster 10,cluster 8,cluster 0,cluster 2,cluster 0,cluster 5
-259,FPT101,cluster 1,cluster 8,cluster 6,cluster 2,cluster 3,cluster 4
-260,FPT102,cluster 10,cluster 8,cluster 0,cluster 1,cluster 3,cluster 4
-261,FPT103,cluster 5,cluster 5,cluster 3,cluster 5,cluster 3,cluster 4
-262,FPT104,cluster 1,cluster 8,cluster 6,cluster 2,cluster 3,cluster 4
-263,FPT105,cluster 10,cluster 8,cluster 0,cluster 1,cluster 3,cluster 4
-264,FPT106,cluster 1,cluster 8,cluster 6,cluster 2,cluster 3,cluster 4
-265,FPT107,cluster 5,cluster 5,cluster 3,cluster 5,cluster 3,cluster 4
-266,FPT108,cluster 6,cluster 8,cluster 6,cluster 2,cluster 1,cluster 2
-267,FPT109,cluster 6,cluster 8,cluster 6,cluster 2,cluster 12,cluster 3
-268,FPT110,cluster 6,cluster 4,cluster 0,cluster 1,cluster 1,cluster 2
-269,FPT111,cluster 6,cluster 8,cluster 6,cluster 2,,
-270,FPT112,cluster 2,cluster 2,cluster 7,cluster 5,,
-271,FPT113,cluster 4,cluster 1,cluster 5,cluster 3,,
-272,FPT114,cluster 4,cluster 1,cluster 5,cluster 3,,
-273,FPT115,cluster 4,cluster 1,cluster 5,cluster 3,,
-274,FPT116,cluster 3,cluster 4,cluster 9,cluster 1,,
-275,FRC013,cluster 1,cluster 8,cluster 6,cluster 2,cluster 13,cluster 4
-276,FRC014,cluster 1,cluster 8,cluster 0,cluster 1,cluster 11,cluster 4
-277,FRC015,cluster 5,cluster 5,cluster 3,cluster 5,cluster 3,cluster 4
-278,FRC016,cluster 5,cluster 5,cluster 3,cluster 5,cluster 0,cluster 4
-279,FRC017,cluster 5,cluster 5,cluster 3,cluster 5,cluster 3,cluster 4
-280,FRC018,cluster 5,cluster 5,cluster 3,cluster 5,cluster 3,cluster 4
-281,FRC019,cluster 5,cluster 5,cluster 3,cluster 5,cluster 0,cluster 4
-282,FSO011,cluster 11,cluster 7,cluster 4,cluster 2,cluster 0,cluster 5
-283,FSO013,cluster 9,cluster 7,cluster 1,cluster 2,cluster 0,cluster 5
-284,FSO014,cluster 7,cluster 6,cluster 10,cluster 7,cluster 4,cluster 5
-285,FSO015,cluster 10,cluster 8,cluster 9,cluster 1,cluster 13,cluster 4
-286,FSO016,cluster 6,cluster 8,cluster 6,cluster 2,cluster 9,cluster 3
-287,FSO017,cluster 10,cluster 8,cluster 6,cluster 2,cluster 10,cluster 5
-288,FSO018,cluster 3,cluster 4,cluster 9,cluster 1,cluster 11,cluster 4
-289,FSO019,cluster 1,cluster 8,cluster 1,cluster 2,cluster 13,cluster 4
-290,FSO020,cluster 6,cluster 8,cluster 6,cluster 2,cluster 13,cluster 4
-291,FSO021,cluster 6,cluster 8,cluster 6,cluster 2,cluster 13,cluster 4
-292,FSO022,cluster 3,cluster 4,cluster 9,cluster 1,cluster 9,cluster 3
-293,FTU107,cluster 8,cluster 6,cluster 8,cluster 7,cluster 4,cluster 5
-294,FTU108,cluster 8,cluster 6,cluster 8,cluster 7,cluster 4,cluster 5
-295,FTU109,cluster 8,cluster 6,cluster 8,cluster 7,cluster 4,cluster 5
-296,FTU110,cluster 8,cluster 6,cluster 8,cluster 7,cluster 4,cluster 5
-297,FTU207,cluster 8,cluster 6,cluster 8,cluster 7,cluster 4,cluster 5
-298,FTU208,cluster 8,cluster 6,cluster 8,cluster 7,cluster 4,cluster 5
-299,FTU209,cluster 8,cluster 6,cluster 8,cluster 7,cluster 4,cluster 5
-300,FTU210,cluster 8,cluster 6,cluster 8,cluster 7,cluster 4,cluster 5
-301,FTU301,cluster 11,cluster 7,,,cluster 4,cluster 5
-302,FTU302,cluster 10,cluster 7,cluster 6,cluster 2,cluster 0,cluster 5
-303,FTU405,cluster 4,cluster 1,cluster 5,cluster 3,,
-304,FTU710,cluster 7,cluster 6,cluster 8,cluster 7,cluster 8,cluster 5
-305,FTU711,cluster 8,cluster 6,cluster 8,cluster 7,cluster 8,cluster 5
-306,FTU713,cluster 7,cluster 6,cluster 8,cluster 7,cluster 8,cluster 5
-307,FTU715,cluster 7,cluster 6,cluster 8,cluster 7,cluster 8,cluster 5
-308,TPB001,cluster 11,cluster 7,,,cluster 4,cluster 5
-309,TPB003,cluster 11,cluster 7,,,cluster 4,cluster 5
+,Item,kmeans_overall,hierarchical_clustering_overall,kmeans_launch,hierarchical_clustering_launch,kmeans_rol,hierarchical_clustering_rol,distance
+0,FAR008,cluster 5,cluster 7,,,cluster 7,cluster 5,0.04716231190149927
+1,FAR010,cluster 5,cluster 7,,,cluster 7,cluster 5,0.04693655042621905
+2,FAR039,cluster 5,cluster 7,cluster 13,cluster 5,cluster 7,cluster 5,0.051310416043562575
+3,FAR042,cluster 9,cluster 6,cluster 13,cluster 7,cluster 7,cluster 5,0.11120852064677685
+4,FAR043,cluster 9,cluster 6,cluster 13,cluster 7,cluster 7,cluster 5,0.1046481457218703
+5,FAR044,cluster 10,cluster 6,cluster 13,cluster 7,cluster 5,cluster 5,0.10264650476481575
+6,FAR045,cluster 10,cluster 6,cluster 13,cluster 7,cluster 5,cluster 5,0.10214963737251521
+7,FAR046,cluster 10,cluster 6,cluster 13,cluster 7,cluster 5,cluster 5,0.09968024600216589
+8,FAR047,cluster 10,cluster 6,cluster 13,cluster 7,cluster 5,cluster 5,0.07919981647175754
+9,FAR049,cluster 5,cluster 7,cluster 11,cluster 2,cluster 7,cluster 5,0.04098340213462839
+10,FAR052,cluster 9,cluster 6,cluster 2,cluster 7,cluster 5,cluster 5,0.12911975576007034
+11,FAR054,cluster 10,cluster 6,cluster 2,cluster 7,cluster 5,cluster 5,0.1159488275149602
+12,FAR055,cluster 10,cluster 6,cluster 2,cluster 7,cluster 5,cluster 5,0.1157263471112157
+13,FAR056,cluster 5,cluster 7,cluster 13,cluster 7,cluster 7,cluster 5,0.039485025124295886
+14,FAR057,cluster 11,cluster 7,cluster 2,cluster 7,cluster 4,cluster 5,0.0471005875292294
+15,FAR059,cluster 2,cluster 8,cluster 2,cluster 7,cluster 7,cluster 4,0.13554310371775377
+16,FAR060,cluster 7,cluster 7,cluster 1,cluster 2,cluster 7,cluster 4,0.08753422676883729
+17,FAR070,cluster 2,cluster 8,cluster 6,cluster 2,cluster 4,cluster 4,0.12880971565780117
+18,FAR071,cluster 2,cluster 8,cluster 1,cluster 2,cluster 4,cluster 4,0.1242410904444053
+19,FAR072,cluster 2,cluster 8,cluster 1,cluster 2,cluster 7,cluster 4,0.15385952685967033
+20,FAR073,cluster 2,cluster 8,cluster 6,cluster 2,cluster 7,cluster 4,0.17427372070116673
+21,FAR074,cluster 1,cluster 4,cluster 3,cluster 2,cluster 1,cluster 4,0.26811051277821085
+22,FAR076,cluster 13,cluster 5,cluster 10,cluster 5,cluster 9,cluster 4,0.1431257641529963
+23,FAR077,cluster 0,cluster 6,cluster 10,cluster 5,cluster 9,cluster 4,0.19087632385558637
+24,FAR078,cluster 13,cluster 5,cluster 10,cluster 5,cluster 3,cluster 4,0.10893210621048911
+25,FAR080,cluster 6,cluster 1,cluster 4,cluster 3,,,
+26,FAR081,cluster 6,cluster 1,cluster 4,cluster 3,,,
+27,FBR048,cluster 7,cluster 8,cluster 1,cluster 2,cluster 11,cluster 4,0.12349166787709337
+28,FBR050,cluster 2,cluster 8,cluster 1,cluster 2,cluster 4,cluster 4,0.10479974788254269
+29,FBR051,cluster 7,cluster 8,cluster 1,cluster 2,cluster 11,cluster 4,0.11211639588596166
+30,FBR053,cluster 1,cluster 4,cluster 3,cluster 1,cluster 8,cluster 3,0.9034483657021684
+31,FBR054,cluster 1,cluster 4,cluster 9,cluster 5,cluster 1,cluster 4,0.3537047403319603
+32,FBR055,cluster 1,cluster 4,cluster 3,cluster 1,cluster 6,cluster 3,0.8133293168684187
+33,FBR057,cluster 1,cluster 4,cluster 3,cluster 1,cluster 8,cluster 3,0.6406298782970681
+34,FBR058,cluster 1,cluster 4,cluster 3,cluster 1,cluster 6,cluster 3,0.9011257728076293
+35,FBR059,cluster 2,cluster 8,cluster 11,cluster 2,cluster 1,cluster 4,0.20517117146498476
+36,FBR060,cluster 2,cluster 8,cluster 1,cluster 2,cluster 1,cluster 4,0.21093098074656141
+37,FBR061,cluster 2,cluster 8,cluster 6,cluster 1,cluster 1,cluster 4,0.24892466602112295
+38,FBR062,cluster 2,cluster 8,cluster 11,cluster 2,cluster 1,cluster 4,0.20795051058122493
+39,FBR063,cluster 2,cluster 8,cluster 11,cluster 2,cluster 11,cluster 4,0.13779496065308128
+40,FBR064,cluster 2,cluster 8,cluster 1,cluster 2,cluster 1,cluster 4,0.2358491229501037
+41,FBR065,cluster 2,cluster 8,cluster 11,cluster 2,cluster 1,cluster 4,0.4493541459042805
+42,FBR066,cluster 2,cluster 8,cluster 6,cluster 2,cluster 11,cluster 4,0.1263618807386632
+43,FBR067,cluster 1,cluster 4,cluster 3,cluster 1,cluster 8,cluster 3,0.9273686406833749
+44,FBR068,cluster 1,cluster 4,cluster 3,cluster 1,cluster 6,cluster 2,0.618131346309555
+45,FBR069,cluster 1,cluster 4,cluster 3,cluster 1,cluster 2,cluster 2,0.9049081080349982
+46,FBR070,cluster 1,cluster 4,cluster 3,cluster 1,cluster 6,cluster 2,0.6230186795222292
+47,FBR071,cluster 1,cluster 4,cluster 6,cluster 1,,,
+48,FBR072,cluster 1,cluster 4,cluster 6,cluster 1,cluster 6,cluster 2,0.631940211100927
+49,FBR073,cluster 1,cluster 4,cluster 3,cluster 1,cluster 6,cluster 2,0.5250618326890264
+50,FBR074,cluster 1,cluster 4,cluster 6,cluster 1,cluster 13,cluster 3,0.8116893283329468
+51,FBR075,cluster 1,cluster 4,cluster 6,cluster 1,cluster 0,cluster 1,0.7916782537918566
+52,FBR076,cluster 1,cluster 4,cluster 6,cluster 1,cluster 0,cluster 1,0.7233311081345274
+53,FBR077,cluster 1,cluster 4,cluster 6,cluster 1,cluster 2,cluster 2,0.935103372111756
+54,FCL018,cluster 1,cluster 4,cluster 3,cluster 1,cluster 2,cluster 2,0.8187131439945623
+55,FCL019,cluster 1,cluster 4,cluster 3,cluster 1,cluster 2,cluster 2,0.8187131439945623
+56,FGS130,cluster 7,cluster 7,cluster 12,cluster 2,cluster 4,cluster 5,0.06202641034368121
+57,FGS131,cluster 11,cluster 7,cluster 11,cluster 2,cluster 4,cluster 4,0.10184664226948897
+58,FGS139,cluster 11,cluster 7,cluster 1,cluster 2,cluster 4,cluster 5,0.0668800169134793
+59,FGS141,cluster 11,cluster 7,cluster 11,cluster 2,cluster 11,cluster 4,0.10503741763390549
+60,FGS151,cluster 11,cluster 7,cluster 1,cluster 2,cluster 10,cluster 5,0.13666926651587377
+61,FGS153,cluster 12,cluster 8,cluster 11,cluster 2,cluster 11,cluster 4,0.2303817240326893
+62,FGS156,cluster 2,cluster 8,cluster 1,cluster 2,cluster 4,cluster 5,0.09696832457340722
+63,FGS157,cluster 2,cluster 8,cluster 1,cluster 2,cluster 10,cluster 4,0.09949945323825836
+64,FGS158,cluster 2,cluster 8,cluster 6,cluster 2,cluster 4,cluster 4,0.08308371240259792
+65,FGS159,cluster 13,cluster 5,cluster 10,cluster 5,cluster 9,cluster 4,0.08076684136016306
+66,FGS160,cluster 11,cluster 7,cluster 1,cluster 2,cluster 4,cluster 5,0.09486950303065379
+67,FGS161,cluster 12,cluster 8,cluster 11,cluster 2,cluster 11,cluster 4,0.13064308115140685
+68,FGS162,cluster 12,cluster 8,cluster 11,cluster 2,cluster 6,cluster 2,0.6915342538401196
+69,FGS163,cluster 7,cluster 8,cluster 11,cluster 2,cluster 10,cluster 4,0.14548661787448341
+70,FGS164,cluster 12,cluster 8,cluster 11,cluster 2,cluster 11,cluster 4,0.17339398022149954
+71,FGS165,cluster 2,cluster 8,cluster 6,cluster 1,cluster 11,cluster 4,0.1309626679619779
+72,FGS166,cluster 2,cluster 8,cluster 11,cluster 2,cluster 11,cluster 4,0.13967603403320236
+73,FGS167,cluster 12,cluster 8,cluster 11,cluster 2,cluster 11,cluster 4,0.15052608995552622
+74,FGS168,cluster 12,cluster 8,cluster 11,cluster 2,cluster 9,cluster 4,0.12779684780113526
+75,FGS169,cluster 1,cluster 4,cluster 6,cluster 1,,,
+76,FGS170,cluster 1,cluster 4,cluster 3,cluster 1,,,
+77,FGS171,cluster 12,cluster 8,cluster 11,cluster 2,cluster 10,cluster 4,0.19033456907870844
+78,FGS172,cluster 1,cluster 4,cluster 6,cluster 1,cluster 2,cluster 2,0.9261179075213904
+79,FGS173,cluster 12,cluster 7,cluster 11,cluster 2,cluster 10,cluster 4,0.15794236779861157
+80,FGS174,cluster 2,cluster 8,cluster 11,cluster 2,cluster 9,cluster 4,0.10654824914977866
+81,FGS175,cluster 2,cluster 8,cluster 6,cluster 2,cluster 9,cluster 4,0.17237113019248398
+82,FGS176,cluster 1,cluster 4,cluster 6,cluster 1,cluster 2,cluster 2,0.8089990853812205
+83,FGS177,cluster 2,cluster 8,cluster 11,cluster 2,cluster 11,cluster 4,0.11436843807271226
+84,FGS178,cluster 2,cluster 8,cluster 11,cluster 2,cluster 9,cluster 4,0.14903912961699814
+85,FGS179,cluster 1,cluster 4,cluster 6,cluster 1,,,
+86,FGS180,cluster 12,cluster 8,cluster 11,cluster 2,cluster 6,cluster 3,0.7942017551719975
+87,FGS182,cluster 12,cluster 8,cluster 11,cluster 2,,,
+88,FGS183,cluster 1,cluster 4,cluster 6,cluster 1,,,
+89,FGS184,cluster 1,cluster 4,cluster 3,cluster 1,,,
+90,FGS186,cluster 12,cluster 8,cluster 11,cluster 2,cluster 6,cluster 1,0.566149364964704
+91,FGS187,cluster 1,cluster 4,cluster 6,cluster 1,cluster 0,cluster 1,0.9196176215196599
+92,FGW068,cluster 10,cluster 6,cluster 13,cluster 7,cluster 5,cluster 5,0.0634206278297627
+93,FGW080,cluster 10,cluster 6,cluster 5,cluster 7,cluster 5,cluster 5,0.07586768485978539
+94,FGW081,cluster 10,cluster 6,cluster 5,cluster 7,cluster 5,cluster 5,0.11159767212021643
+95,FGW082,cluster 10,cluster 6,cluster 13,cluster 7,cluster 5,cluster 5,0.09031547016758983
+96,FGW084,cluster 10,cluster 6,cluster 13,cluster 7,cluster 5,cluster 5,0.12393832437578753
+97,FGW085,cluster 0,cluster 6,cluster 13,cluster 7,cluster 5,cluster 5,0.18467186640488611
+98,FGW086,cluster 10,cluster 6,cluster 13,cluster 7,cluster 5,cluster 5,0.0923971232366785
+99,FGW087,cluster 10,cluster 6,cluster 13,cluster 7,cluster 5,cluster 5,0.06800679622072921
+100,FGW089,cluster 10,cluster 6,cluster 13,cluster 7,cluster 5,cluster 5,0.07963824090996784
+101,FGW090,cluster 0,cluster 6,cluster 13,cluster 5,cluster 5,cluster 5,0.12488626069437014
+102,FGW091,cluster 0,cluster 6,cluster 2,cluster 7,cluster 5,cluster 5,0.10322173138676355
+103,FGW092,cluster 0,cluster 6,cluster 2,cluster 7,cluster 7,cluster 5,0.12690078265711027
+104,FGW093,cluster 0,cluster 6,cluster 13,cluster 7,cluster 5,cluster 5,0.1585921910852498
+105,FGW096,cluster 6,cluster 1,cluster 4,cluster 3,,,
+106,FGW098,cluster 6,cluster 1,cluster 4,cluster 3,,,
+107,FGW101,cluster 8,cluster 2,cluster 7,cluster 5,,,
+108,FGW102,cluster 6,cluster 1,cluster 4,cluster 3,,,
+109,FGW103,cluster 8,cluster 2,cluster 9,cluster 5,,,
+110,FGW104,cluster 6,cluster 1,cluster 4,cluster 3,,,
+111,FGW105,cluster 3,cluster 2,cluster 7,cluster 5,,,
+112,FJL095,cluster 7,cluster 7,cluster 12,cluster 2,cluster 4,cluster 5,0.05812446491550896
+113,FJL096,cluster 7,cluster 7,cluster 12,cluster 2,cluster 4,cluster 5,0.051718599293668135
+114,FJL113,cluster 2,cluster 8,cluster 1,cluster 2,cluster 10,cluster 4,0.1222507525885116
+115,FJL119,cluster 1,cluster 8,cluster 6,cluster 1,cluster 2,cluster 2,0.9421112944132753
+116,FJL120,cluster 1,cluster 4,cluster 3,cluster 1,cluster 8,cluster 3,0.6309727515151331
+117,FJL121,cluster 1,cluster 4,cluster 3,cluster 1,cluster 0,cluster 1,0.88754615447717
+118,FJL122,cluster 12,cluster 8,cluster 11,cluster 2,cluster 1,cluster 4,0.20292188153816282
+119,FJL123,cluster 12,cluster 8,cluster 11,cluster 2,cluster 9,cluster 4,0.09451461959018446
+120,FJL124,cluster 1,cluster 4,cluster 3,cluster 1,cluster 0,cluster 1,0.9423951065821204
+121,FJL125,cluster 1,cluster 4,cluster 3,cluster 1,cluster 2,cluster 2,0.9421112944132753
+122,FJL126,cluster 1,cluster 4,cluster 6,cluster 1,cluster 0,cluster 1,0.7864420215003748
+123,FJL128,cluster 1,cluster 4,cluster 3,cluster 1,,,
+124,FJL130,cluster 1,cluster 4,cluster 6,cluster 1,cluster 6,cluster 2,0.6578369533873786
+125,FJL131,cluster 1,cluster 4,cluster 3,cluster 1,cluster 2,cluster 2,0.9421112944132753
+126,FJT223,cluster 11,cluster 7,cluster 11,cluster 2,cluster 4,cluster 5,0.0606310095867254
+127,FJT224,cluster 11,cluster 7,cluster 11,cluster 2,cluster 4,cluster 5,0.06077696610855379
+128,FJT230,cluster 11,cluster 7,cluster 11,cluster 2,cluster 4,cluster 5,0.07796058806716277
+129,FJT252,cluster 9,cluster 6,cluster 5,cluster 7,cluster 7,cluster 5,0.06094231762964565
+130,FJT253,cluster 9,cluster 6,cluster 5,cluster 7,cluster 5,cluster 5,0.1576154679302359
+131,FJT254,cluster 9,cluster 6,cluster 5,cluster 7,cluster 7,cluster 5,0.06622557006557489
+132,FJT257,cluster 7,cluster 7,cluster 12,cluster 2,cluster 7,cluster 5,0.10272752354743837
+133,FJT258,cluster 7,cluster 7,cluster 12,cluster 2,cluster 7,cluster 5,0.08454334660730946
+134,FJT262,cluster 7,cluster 7,cluster 12,cluster 2,cluster 7,cluster 5,0.11073967189198657
+135,FJT263,cluster 7,cluster 7,cluster 12,cluster 2,cluster 7,cluster 5,0.11423637955042218
+136,FJT265,cluster 7,cluster 7,cluster 12,cluster 2,cluster 7,cluster 5,0.1005329871384994
+137,FJT273,cluster 11,cluster 7,,,cluster 4,cluster 5,0.07655707727320148
+138,FJT274,cluster 11,cluster 7,,,cluster 4,cluster 5,0.10453899900364008
+139,FJT275,cluster 11,cluster 7,cluster 1,cluster 2,cluster 4,cluster 5,0.10205305802604497
+140,FJT276,cluster 7,cluster 8,cluster 1,cluster 2,cluster 4,cluster 4,0.10153816411840416
+141,FJT277,cluster 12,cluster 8,cluster 9,cluster 5,cluster 11,cluster 4,0.15587948109949917
+142,FJT278,cluster 7,cluster 8,cluster 11,cluster 1,cluster 9,cluster 4,0.15477694417366317
+143,FJT279,cluster 12,cluster 8,cluster 6,cluster 1,cluster 10,cluster 4,0.2567642431940156
+144,FJT280,cluster 9,cluster 5,cluster 13,cluster 5,cluster 7,cluster 5,0.11528297914967642
+145,FJT281,cluster 13,cluster 5,cluster 10,cluster 5,cluster 10,cluster 4,0.1374250609796486
+146,FJT282,cluster 13,cluster 5,cluster 10,cluster 5,cluster 7,cluster 5,0.0774162729562521
+147,FJT283,cluster 13,cluster 5,cluster 10,cluster 5,cluster 7,cluster 5,0.09387923290723017
+148,FJT284,cluster 0,cluster 5,cluster 10,cluster 5,cluster 5,cluster 5,0.13373937995949414
+149,FJT285,cluster 0,cluster 6,cluster 1,cluster 2,cluster 5,cluster 5,0.11260771333186374
+150,FJT286,cluster 13,cluster 5,cluster 9,cluster 5,cluster 11,cluster 4,0.1703659861737831
+151,FJT287,cluster 0,cluster 5,cluster 13,cluster 7,cluster 5,cluster 5,0.17822309451323864
+152,FJT288,cluster 13,cluster 5,cluster 10,cluster 5,cluster 9,cluster 4,0.10864139069635939
+153,FJT289,cluster 2,cluster 8,cluster 6,cluster 1,cluster 10,cluster 4,0.1879625996508547
+154,FJT290,cluster 2,cluster 8,cluster 6,cluster 1,cluster 10,cluster 4,0.18682403212891377
+155,FJT291,cluster 12,cluster 8,cluster 11,cluster 2,cluster 2,cluster 2,0.9630327097248569
+156,FJT292,cluster 2,cluster 8,cluster 6,cluster 2,cluster 11,cluster 4,0.14755248996679393
+157,FJT293,cluster 1,cluster 4,,,cluster 1,cluster 4,0.3851406641664565
+158,FJT294,cluster 12,cluster 8,cluster 11,cluster 2,cluster 10,cluster 4,0.20813446141704853
+159,FJT295,cluster 12,cluster 8,cluster 11,cluster 2,cluster 10,cluster 4,0.2928670336247019
+160,FJT296,cluster 2,cluster 8,cluster 6,cluster 1,cluster 10,cluster 4,0.13934144498897247
+161,FJT297,cluster 2,cluster 8,cluster 11,cluster 2,cluster 10,cluster 4,0.09835746631513097
+162,FJT298,cluster 13,cluster 5,cluster 10,cluster 5,cluster 9,cluster 4,0.1499673993035566
+163,FJT299,cluster 13,cluster 5,cluster 10,cluster 5,cluster 10,cluster 4,0.1316550370898698
+164,FJT300,cluster 13,cluster 5,cluster 10,cluster 5,cluster 9,cluster 4,0.161420055926812
+165,FJT301,cluster 0,cluster 5,cluster 10,cluster 5,cluster 11,cluster 4,0.21598597988821452
+166,FJT302,cluster 13,cluster 5,cluster 10,cluster 5,cluster 9,cluster 4,0.1731805169304282
+167,FJT303,cluster 8,cluster 2,,,cluster 8,cluster 3,0.4715878870360625
+168,FJT304,cluster 13,cluster 5,cluster 9,cluster 5,cluster 9,cluster 4,0.11215575235754155
+169,FJT305,cluster 13,cluster 5,cluster 10,cluster 5,cluster 9,cluster 4,0.13655373275612445
+170,FJT306,cluster 1,cluster 8,cluster 6,cluster 2,cluster 6,cluster 3,0.9617159814433887
+171,FJT307,cluster 12,cluster 8,cluster 11,cluster 2,,,
+172,FJT308,cluster 1,cluster 4,cluster 3,cluster 1,cluster 0,cluster 1,0.9623706891142763
+173,FJT309,cluster 12,cluster 8,cluster 6,cluster 2,cluster 2,cluster 2,0.9619966250054653
+174,FJT310,cluster 12,cluster 8,cluster 11,cluster 2,,,
+175,FJT311,cluster 12,cluster 8,cluster 11,cluster 2,cluster 6,cluster 3,0.9622771867191863
+176,FJT312,cluster 1,cluster 4,cluster 6,cluster 1,cluster 2,cluster 2,0.9619966250054653
+177,FJT313,cluster 12,cluster 8,cluster 11,cluster 2,,,
+178,FJT314,cluster 1,cluster 4,cluster 3,cluster 1,cluster 6,cluster 2,0.6782331555486422
+179,FJT315,cluster 1,cluster 4,cluster 6,cluster 1,cluster 0,cluster 1,0.7899700566456352
+180,FJT316,cluster 1,cluster 4,cluster 6,cluster 2,cluster 2,cluster 2,0.9619966250054653
+181,FJT317,cluster 1,cluster 4,cluster 3,cluster 1,cluster 2,cluster 2,0.8081347258050452
+182,FJT318,cluster 1,cluster 4,cluster 3,cluster 1,cluster 2,cluster 2,0.6665505448777792
+183,FJT319,cluster 1,cluster 4,cluster 3,cluster 1,,,
+184,FJT320,cluster 12,cluster 8,cluster 6,cluster 1,cluster 2,cluster 2,0.9619966250054653
+185,FJT321,cluster 1,cluster 8,cluster 6,cluster 1,cluster 2,cluster 2,0.8424157696287307
+186,FJT322,cluster 6,cluster 2,cluster 7,cluster 5,,,
+187,FJT323,cluster 6,cluster 1,cluster 4,cluster 3,,,
+188,FJT325,cluster 8,cluster 2,cluster 9,cluster 5,,,
+189,FJT326,cluster 8,cluster 2,cluster 9,cluster 5,,,
+190,FJT327,cluster 12,cluster 8,cluster 11,cluster 2,cluster 6,cluster 3,0.9621836752377877
+191,FJT328,cluster 4,cluster 3,cluster 8,cluster 4,,,
+192,FJT329,cluster 1,cluster 4,cluster 3,cluster 1,,,
+193,FJT342,cluster 6,cluster 2,,,cluster 8,cluster 3,0.962891478828222
+194,FJT352,cluster 3,cluster 2,,,cluster 8,cluster 3,0.9629330194774715
+195,FLU001,cluster 13,cluster 5,cluster 9,cluster 5,cluster 11,cluster 4,0.14894495266012922
+196,FLU002,cluster 13,cluster 5,cluster 9,cluster 5,cluster 11,cluster 4,0.1606160547245418
+197,FLU003,cluster 13,cluster 5,cluster 9,cluster 5,cluster 3,cluster 4,0.10976632831025858
+198,FLU004,cluster 13,cluster 5,cluster 9,cluster 5,cluster 10,cluster 4,0.09175870103233265
+199,FOL031,cluster 2,cluster 8,cluster 1,cluster 2,cluster 10,cluster 4,0.17909862941361257
+200,FOL032,cluster 2,cluster 8,cluster 1,cluster 2,cluster 11,cluster 4,0.21346969173950395
+201,FOL035,cluster 2,cluster 8,cluster 11,cluster 2,cluster 10,cluster 4,0.167080547064621
+202,FOL036,cluster 1,cluster 4,cluster 3,cluster 1,cluster 8,cluster 3,0.8187131439945623
+203,FPB002,cluster 5,cluster 7,cluster 13,cluster 7,cluster 7,cluster 5,0.06437399076057436
+204,FPB003,cluster 11,cluster 7,cluster 13,cluster 7,cluster 4,cluster 5,0.06660142967192523
+205,FPB004,cluster 9,cluster 5,cluster 10,cluster 5,cluster 10,cluster 4,0.1251610288475185
+206,FPG028,cluster 5,cluster 7,,,cluster 7,cluster 5,0.05688397342022974
+207,FPG042,cluster 5,cluster 7,cluster 0,cluster 6,cluster 7,cluster 5,0.06790535153454046
+208,FPG043,cluster 5,cluster 7,cluster 0,cluster 6,cluster 7,cluster 5,0.07474703348876441
+209,FPG044,cluster 5,cluster 7,cluster 0,cluster 6,cluster 7,cluster 5,0.05598390429041104
+210,FPG045,cluster 5,cluster 7,cluster 0,cluster 6,cluster 7,cluster 5,0.061766574417067
+211,FPG046,cluster 5,cluster 7,cluster 0,cluster 6,cluster 7,cluster 5,0.06319727489531174
+212,FPG047,cluster 5,cluster 7,cluster 0,cluster 6,cluster 7,cluster 5,0.06299567893657204
+213,FPG048,cluster 5,cluster 7,cluster 0,cluster 6,cluster 7,cluster 5,0.06233274793819544
+214,FPG049,cluster 11,cluster 7,cluster 0,cluster 6,cluster 4,cluster 5,0.06946639235972134
+215,FPG050,cluster 11,cluster 7,cluster 0,cluster 6,cluster 4,cluster 5,0.06826402884902721
+216,FPG051,cluster 11,cluster 7,cluster 0,cluster 6,cluster 4,cluster 5,0.06909423491870635
+217,FPG052,cluster 11,cluster 7,cluster 0,cluster 6,cluster 4,cluster 5,0.07279144674435818
+218,FPG053,cluster 11,cluster 7,cluster 0,cluster 2,cluster 7,cluster 4,0.05026311081335496
+219,FPG054,cluster 5,cluster 7,cluster 12,cluster 2,cluster 4,cluster 5,0.06670646195474893
+220,FPG055,cluster 7,cluster 8,cluster 11,cluster 2,cluster 10,cluster 4,0.10168382785636296
+221,FPG056,cluster 12,cluster 8,cluster 11,cluster 2,cluster 3,cluster 4,
+222,FPG057,cluster 7,cluster 8,cluster 11,cluster 2,cluster 10,cluster 4,0.1202450373845805
+223,FPG058,cluster 2,cluster 8,cluster 11,cluster 2,cluster 10,cluster 4,0.15785582430532466
+224,FPG060,cluster 12,cluster 8,cluster 11,cluster 2,cluster 3,cluster 4,0.1292147824132633
+225,FPG062,cluster 12,cluster 8,cluster 0,cluster 2,cluster 2,cluster 2,
+226,FPG063,cluster 1,cluster 8,cluster 6,cluster 1,cluster 2,cluster 2,
+227,FPJ043,cluster 1,cluster 4,cluster 3,cluster 1,,,
+228,FPJ044,cluster 1,cluster 4,cluster 3,cluster 1,,,
+229,FPJ045,cluster 2,cluster 4,cluster 6,cluster 1,cluster 0,cluster 1,0.8907163746658704
+230,FPJ046,cluster 1,cluster 4,cluster 3,cluster 1,cluster 6,cluster 3,0.9084482866630208
+231,FPJ047,cluster 12,cluster 8,cluster 6,cluster 1,cluster 2,cluster 2,0.908358908563547
+232,FPJ048,cluster 1,cluster 4,cluster 6,cluster 1,cluster 2,cluster 2,0.908358908563547
+233,FPJ049,cluster 1,cluster 4,cluster 6,cluster 1,cluster 12,cluster 3,0.9080907214833213
+234,FPJ050,cluster 1,cluster 4,cluster 6,cluster 1,cluster 6,cluster 3,0.7300744052301823
+235,FPJ051,cluster 1,cluster 4,cluster 6,cluster 1,cluster 0,cluster 1,0.9085376559698545
+236,FPJ052,cluster 1,cluster 4,cluster 3,cluster 1,cluster 12,cluster 3,0.9080907214833213
+237,FPJ053,cluster 1,cluster 4,cluster 6,cluster 1,cluster 12,cluster 3,0.9080907214833213
+238,FPJ054,cluster 1,cluster 8,cluster 6,cluster 1,cluster 2,cluster 2,0.908358908563547
+239,FPJ055,cluster 1,cluster 4,cluster 3,cluster 1,,,
+240,FPJ056,cluster 1,cluster 4,cluster 3,cluster 1,cluster 12,cluster 3,0.9080907214833213
+241,FPJ057,cluster 1,cluster 4,cluster 3,cluster 1,cluster 12,cluster 3,0.9080907214833213
+242,FPJ058,cluster 1,cluster 4,cluster 3,cluster 1,cluster 0,cluster 1,0.9085376559698545
+243,FPJ059,cluster 1,cluster 4,cluster 6,cluster 1,,,
+244,FPL034,cluster 7,cluster 7,cluster 12,cluster 2,cluster 4,cluster 5,0.0468869218863241
+245,FPL038,cluster 2,cluster 8,cluster 6,cluster 2,cluster 11,cluster 4,0.14070655379757138
+246,FPL039,cluster 1,cluster 4,cluster 3,cluster 1,cluster 0,cluster 1,0.6785857900800761
+247,FPL040,cluster 1,cluster 4,cluster 3,cluster 1,cluster 0,cluster 1,0.9329201975083824
+248,FPT089,cluster 9,cluster 6,cluster 5,cluster 7,cluster 7,cluster 5,0.09349813729907179
+249,FPT090,cluster 9,cluster 6,cluster 5,cluster 7,cluster 7,cluster 5,0.11706739611340125
+250,FPT091,cluster 7,cluster 7,cluster 12,cluster 2,cluster 7,cluster 5,0.07562545495015743
+251,FPT092,cluster 7,cluster 7,cluster 12,cluster 2,cluster 7,cluster 5,0.0782396520683546
+252,FPT093,cluster 7,cluster 7,cluster 12,cluster 2,cluster 7,cluster 5,0.07293468170569901
+253,FPT094,cluster 7,cluster 7,cluster 12,cluster 2,cluster 7,cluster 4,0.10939566569144886
+254,FPT095,cluster 7,cluster 7,cluster 12,cluster 2,cluster 7,cluster 5,0.10107237905966077
+255,FPT096,cluster 11,cluster 7,cluster 1,cluster 2,cluster 4,cluster 5,0.08054699689238361
+256,FPT097,cluster 11,cluster 7,cluster 1,cluster 2,cluster 3,cluster 5,0.0858856108925484
+257,FPT098,cluster 11,cluster 7,cluster 1,cluster 2,cluster 4,cluster 5,0.10798661031118842
+258,FPT099,cluster 2,cluster 8,cluster 1,cluster 2,cluster 4,cluster 4,0.14126057134957465
+259,FPT101,cluster 2,cluster 8,cluster 1,cluster 2,cluster 10,cluster 4,0.166834745969397
+260,FPT102,cluster 2,cluster 8,cluster 6,cluster 1,cluster 10,cluster 4,0.1026355063810216
+261,FPT103,cluster 13,cluster 5,cluster 10,cluster 5,cluster 10,cluster 4,0.10732548025106901
+262,FPT104,cluster 2,cluster 8,cluster 11,cluster 2,cluster 10,cluster 4,0.12915867670750034
+263,FPT105,cluster 2,cluster 8,cluster 6,cluster 1,cluster 10,cluster 4,0.11746844734582662
+264,FPT106,cluster 7,cluster 8,cluster 1,cluster 2,cluster 10,cluster 4,0.12896820401464698
+265,FPT107,cluster 13,cluster 5,cluster 9,cluster 5,cluster 9,cluster 4,0.11843811255591483
+266,FPT108,cluster 12,cluster 8,cluster 11,cluster 2,cluster 6,cluster 2,0.6743487121687483
+267,FPT109,cluster 12,cluster 8,cluster 11,cluster 2,cluster 6,cluster 3,0.842749653745591
+268,FPT110,cluster 12,cluster 4,cluster 6,cluster 1,cluster 2,cluster 2,0.9615080494244056
+269,FPT111,cluster 12,cluster 8,cluster 11,cluster 2,,,
+270,FPT112,cluster 8,cluster 2,cluster 7,cluster 5,,,
+271,FPT113,cluster 6,cluster 1,cluster 4,cluster 3,,,
+272,FPT114,cluster 6,cluster 1,cluster 4,cluster 3,,,
+273,FPT115,cluster 6,cluster 1,cluster 4,cluster 3,,,
+274,FPT116,cluster 1,cluster 4,cluster 3,cluster 1,,,
+275,FRC013,cluster 12,cluster 8,cluster 11,cluster 2,cluster 3,cluster 4,0.0567145285975834
+276,FRC014,cluster 12,cluster 8,cluster 6,cluster 1,cluster 3,cluster 4,0.17159079916029218
+277,FRC015,cluster 13,cluster 5,cluster 10,cluster 5,cluster 10,cluster 4,0.11759267764735244
+278,FRC016,cluster 13,cluster 5,cluster 10,cluster 5,cluster 3,cluster 4,0.06444744873355171
+279,FRC017,cluster 13,cluster 5,cluster 10,cluster 5,cluster 10,cluster 4,0.11031657095363788
+280,FRC018,cluster 13,cluster 5,cluster 10,cluster 5,cluster 3,cluster 4,0.09800048769117506
+281,FRC019,cluster 13,cluster 5,cluster 10,cluster 5,cluster 4,cluster 4,0.07560654669564823
+282,FSO011,cluster 7,cluster 7,cluster 12,cluster 2,cluster 10,cluster 5,0.0626645320772073
+283,FSO013,cluster 11,cluster 7,cluster 11,cluster 2,cluster 4,cluster 5,0.04996394930454644
+284,FSO014,cluster 9,cluster 6,cluster 13,cluster 7,cluster 5,cluster 5,0.12380337659722188
+285,FSO015,cluster 2,cluster 8,cluster 6,cluster 1,cluster 9,cluster 4,0.14946970483100522
+286,FSO016,cluster 12,cluster 8,cluster 1,cluster 2,cluster 6,cluster 3,0.9630576306743021
+287,FSO017,cluster 12,cluster 8,cluster 1,cluster 2,cluster 1,cluster 4,0.1685746006285072
+288,FSO018,cluster 1,cluster 4,cluster 3,cluster 1,cluster 3,cluster 4,0.13556600211714853
+289,FSO019,cluster 12,cluster 8,cluster 11,cluster 2,cluster 9,cluster 4,0.10901503623328464
+290,FSO020,cluster 12,cluster 8,cluster 11,cluster 2,cluster 9,cluster 4,0.12288182945746805
+291,FSO021,cluster 12,cluster 8,cluster 11,cluster 2,cluster 11,cluster 4,0.15342290131979072
+292,FSO022,cluster 1,cluster 4,cluster 3,cluster 1,cluster 6,cluster 3,0.9622771867191863
+293,FTU107,cluster 9,cluster 6,cluster 5,cluster 7,cluster 7,cluster 5,0.11130115075214093
+294,FTU108,cluster 9,cluster 6,cluster 5,cluster 7,cluster 7,cluster 5,0.11100982937319087
+295,FTU109,cluster 9,cluster 6,cluster 5,cluster 7,cluster 7,cluster 5,0.11647725094771548
+296,FTU110,cluster 9,cluster 6,cluster 5,cluster 7,cluster 7,cluster 5,0.10786884406030631
+297,FTU207,cluster 9,cluster 6,cluster 5,cluster 7,cluster 7,cluster 5,0.10138416009686788
+298,FTU208,cluster 9,cluster 6,cluster 5,cluster 7,cluster 7,cluster 5,0.10963569535641877
+299,FTU209,cluster 9,cluster 6,cluster 5,cluster 7,cluster 7,cluster 5,0.0968643944672536
+300,FTU210,cluster 9,cluster 6,cluster 5,cluster 7,cluster 7,cluster 5,0.10688801191158852
+301,FTU301,cluster 5,cluster 7,,,cluster 7,cluster 5,0.04960534773985523
+302,FTU302,cluster 7,cluster 7,cluster 1,cluster 2,cluster 4,cluster 5,0.11810963772041419
+303,FTU405,cluster 6,cluster 1,cluster 4,cluster 3,,,
+304,FTU710,cluster 9,cluster 6,cluster 5,cluster 7,cluster 5,cluster 5,0.09740319465778335
+305,FTU711,cluster 9,cluster 6,cluster 5,cluster 7,cluster 5,cluster 5,0.1053567947072622
+306,FTU713,cluster 9,cluster 6,cluster 5,cluster 7,cluster 5,cluster 5,0.10754300572986851
+307,FTU715,cluster 10,cluster 6,cluster 5,cluster 7,cluster 5,cluster 5,0.06207389734380544
+308,TPB001,cluster 9,cluster 7,,,cluster 7,cluster 5,0.08591278804377361
+309,TPB003,cluster 5,cluster 7,,,cluster 7,cluster 5,0.07912544766988389

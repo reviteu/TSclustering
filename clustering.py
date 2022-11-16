@@ -20,8 +20,9 @@ from functools import partial, reduce
 
 class ClusterWithFeatures():
 
-    def __init__(self, data_path, cluster_column, item_column):
+    def __init__(self, data_path, pattern_path, cluster_column, item_column):
         self.data_path = data_path
+        self.pattern_path = pattern_path
         self.cluster_column = cluster_column
         self.item_column = item_column
 
@@ -32,14 +33,15 @@ class ClusterWithFeatures():
             data : dataframe with weekly seasonal index for different items
         """
 
-        df = pd.read_excel(self.data_path)
-        df = df.drop('Total', axis=1)
-        data = df.copy(deep=True)
+        seasonal_data = pd.read_excel(self.data_path)
+        seasonal_data = seasonal_data.drop('Total', axis=1)
+        data = seasonal_data.copy(deep=True)
         data['cluster'] = data.iloc[:,1:].apply(lambda s: s.to_numpy(), axis=1)
         cluster_df = data[['Item', 'cluster']]
+        
+        seasonal_pattern = pd.read_excel(self.pattern_path, 'item launch')
 
-
-        return df, cluster_df
+        return seasonal_data, cluster_df, seasonal_pattern
 
     def extract_ts_features(self):
         """Extracts all the feature set for the timeseries input with the tsfresh library. 
@@ -48,7 +50,7 @@ class ClusterWithFeatures():
             Dataframe: Cleaned dataframe with removing inf and NaNs and appended feature columns
         """
 
-        data, cluster_data = self.load_data()
+        data, cluster_data, seasonal_pattern = self.load_data()
         melted_data = data.melt(id_vars="Item", var_name="week", value_name="cluster")
         melted_data = melted_data.sort_values(["Item", "week"]).reset_index(drop=True)
         extracted_features = extract_features(melted_data, column_id=self.item_column, column_value=self.cluster_column)
@@ -147,8 +149,9 @@ class ClusterWithFeatures():
 
 class ClusterWithTS(ClusterWithFeatures):
 
-    def __init__(self, data_path, cluster_column, item_column):
+    def __init__(self, data_path, pattern_path, cluster_column, item_column):
         self.data_path = data_path
+        self.pattern_path = pattern_path
         self.cluster_column = cluster_column
         self.item_column = item_column
 
@@ -159,12 +162,45 @@ class ClusterWithTS(ClusterWithFeatures):
             array: distance matrix of size (N * M) where N is the number of time series and M is the common lenght of the time series
         """
 
-        data, grouped_data = self.load_data()
+        data, grouped_data, seasonal_pattern = self.load_data()
 
         timeseries = list(grouped_data[self.cluster_column].iloc[:])
         d = dtw.distance_matrix_fast(timeseries)
 
         return d
+    
+    
+    def calculate_similarity(self):
+        
+        item_pattern, cluster_df, seasonal_pattern = self.load_data()
+        item_pattern = pd.read_excel('rol_index.xlsx')
+        item_pattern = item_pattern.drop('Total', axis=1)
+        seasonal_pattern =  pd.read_excel('season patterns.xlsx','item rest')
+        
+        item_pattern = item_pattern.set_index('Item').drop([53,54], axis=1).sort_index(axis=1).reset_index()
+        seasonal_pattern = seasonal_pattern.set_index('Item code').drop('Season Pattern', axis=1).sort_index(axis=1).reset_index()
+        
+        in_seasonal_pattern = seasonal_pattern[seasonal_pattern['Item code'].isin(item_pattern['Item'])]
+        in_seasonal_pattern = in_seasonal_pattern.drop_duplicates('Item code').sort_values('Item code').drop('Item code', axis=1)
+
+        out_seasonal_pattern = item_pattern[item_pattern['Item'].isin(seasonal_pattern['Item code'])].sort_values('Item')
+        out_seasonal_pattern_copy = out_seasonal_pattern.copy(deep=True)
+        out_seasonal_pattern = out_seasonal_pattern.drop('Item', axis=1)
+        
+        arr1 = in_seasonal_pattern.to_numpy()
+        arr2 = out_seasonal_pattern.to_numpy()
+
+
+        res_arr  = []
+        for i in range(len(arr1)):
+            d = dtw.distance(arr1[i, :], arr2[i, :])
+            res_arr.append(d)
+            
+
+        out_seasonal_pattern_copy['distance'] = res_arr
+        
+        return out_seasonal_pattern_copy[['Item', 'distance']]
+
 
     
     def kmeans_ts_clustering(self):
@@ -204,8 +240,8 @@ def main(data_type, train_type):
         data_path = "rol_index.xlsx"
         
         
-    cluster_feature = ClusterWithFeatures(data_path, 'cluster', 'Item' )    
-    cluster_TS = ClusterWithTS(data_path, 'cluster', 'Item')
+    cluster_feature = ClusterWithFeatures(data_path, 'season patterns.xlsx', 'cluster', 'Item' )    
+    cluster_TS = ClusterWithTS(data_path, 'season patterns.xlsx','cluster', 'Item')
     
     if train_type == 'ts_clustering':
         
@@ -213,7 +249,7 @@ def main(data_type, train_type):
         kmeans_clustering_label = cluster_TS.kmeans_ts_clustering()
         kernelmeans_clustering_label = cluster_TS.kernelmeans_ts_clustering()
 
-        data, grouped_data = cluster_TS.load_data()
+        data, grouped_data, seasonal_pattern = cluster_TS.load_data()
 
         grouped_data[f'kmeans_{data_type}'] = kmeans_clustering_label
         grouped_data[f'hierarchical_clustering{data_type}'] = kernelmeans_clustering_label
@@ -231,7 +267,7 @@ def main(data_type, train_type):
 
         kmeans_clustering_label = cluster_feature.kmeans_clustering(data_matrix)
 
-        data, grouped_data = cluster_feature.load_data()
+        data, grouped_data, seasonal_pattern = cluster_feature.load_data()
 
         grouped_data[f'kmeans_{data_type}'] = kmeans_clustering_label
         grouped_data[f'hierarchical_clustering_{data_type}'] = hierarchical_clustering_label
@@ -239,18 +275,19 @@ def main(data_type, train_type):
         final_cluster_data = grouped_data.drop('cluster', axis=1)
         final_cluster_data[f'kmeans_{data_type}'] = "cluster" + " "+  final_cluster_data[f'kmeans_{data_type}'].astype(str)
         final_cluster_data[f'hierarchical_clustering_{data_type}'] = "cluster" + " " + final_cluster_data[f'hierarchical_clustering_{data_type}'].astype(str)
-
+    
+    similarity_data = cluster_TS.calculate_similarity()
         
-    return final_cluster_data
+    return final_cluster_data, similarity_data
 
 if __name__ == "__main__":
 
-    cluster_data_overall = main("overall", "feature_clustering")
-    cluster_data_launch = main("launch", "feature_clustering")
-    cluster_data_rol = main("rol", "feature_clustering")
+    cluster_data_overall, similarity_index_overall = main("overall", "feature_clustering")
+    cluster_data_launch, similarity_index_launch = main("launch", "feature_clustering")
+    cluster_data_rol, similarity_index_rol = main("rol", "feature_clustering")
     
-    combined_data = [cluster_data_overall, cluster_data_launch, cluster_data_rol]
+    combined_data = [cluster_data_overall, cluster_data_launch, cluster_data_rol, similarity_index_rol]
     merge = partial(pd.merge, on = "Item", how="outer")
     cluster_data = reduce(merge, combined_data)
-    
+
     cluster_data.to_csv('clusters.csv')
